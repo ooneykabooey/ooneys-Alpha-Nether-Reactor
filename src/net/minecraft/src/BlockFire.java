@@ -47,18 +47,19 @@ public class BlockFire extends Block {
 	}
 
 	public void updateTick(World var1, int var2, int var3, int var4, Random var5) {
+		boolean var99 = var1.getBlockId(var2, var3 - 1, var4) == Block.bloodStone.blockID;
 		int var6 = var1.getBlockMetadata(var2, var3, var4);
 		if(var6 < 15) {
 			var1.setBlockMetadataWithNotify(var2, var3, var4, var6 + 1);
 			var1.scheduleBlockUpdate(var2, var3, var4, this.blockID);
 		}
 
-		if(!this.canNeighborBurn(var1, var2, var3, var4)) {
+		if(!var99 && !this.canNeighborBurn(var1, var2, var3, var4)) {
 			if(!var1.isBlockNormalCube(var2, var3 - 1, var4) || var6 > 3) {
 				var1.setBlockWithNotify(var2, var3, var4, 0);
 			}
 
-		} else if(!this.canBlockCatchFire(var1, var2, var3 - 1, var4) && var6 == 15 && var5.nextInt(4) == 0) {
+		} else if(!var99 && !this.canBlockCatchFire(var1, var2, var3 - 1, var4) && var6 == 15 && var5.nextInt(4) == 0) {
 			var1.setBlockWithNotify(var2, var3, var4, 0);
 		} else {
 			if(var6 % 2 == 0 && var6 > 2) {
