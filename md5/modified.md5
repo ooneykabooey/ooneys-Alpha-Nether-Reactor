@@ -4,13 +4,13 @@ net/minecraft/client/Minecraft 088aba934cfef3e2c6d489d14b3fe6dd
 net/minecraft/client/MinecraftApplet 1f3c6c0266ebb6c64d8c6582609641c5
 net/minecraft/src/SoundManager 3d27e127e2abebe00496e9c2d1790f34
 net/minecraft/src/BlockOre 1c8a201d113a73c9f74a7d196c25dc65
-net/minecraft/src/BlockFire b87b995920ef406a85442c06a00e3c72
+net/minecraft/src/BlockFire 4058926b76a50f03a7d0a8065f60e16e
 net/minecraft/src/NibbleArray 27c5c59992f6e4911df2edb5fb44c788
 net/minecraft/src/EntitySlimeFX 2ea563e1299f7736ae60e8f3a8579b0c
 net/minecraft/src/MapGenCaves 27d93e81c012e0ac70b3a77caedfc8e0
 net/minecraft/src/ItemBlock bf5140e471225e21c276b0cf96e2aa08
 net/minecraft/src/BlockContainer afc0c8a2237612dca1f889ec40aded85
-net/minecraft/src/EntityPlayer 15aa660428f1e8433852be79e0bbf141
+net/minecraft/src/EntityPlayer 30a3c2705f575eae12ae7d6dfde78d96
 net/minecraft/src/EntityCreature 6e40dfcd24b4141c1a539f89491b72e0
 net/minecraft/src/ItemPickaxe bbe2be4395c849b29e41b24d88d9bcaa
 net/minecraft/src/SlotArmor 7a7183a2559065242aa7c95750346808
@@ -81,7 +81,7 @@ net/minecraft/src/EntityMinecart 7bfd57782ac2500389a4009ebc5cfa03
 net/minecraft/src/BlockGravel 0937b3ca08c59bdbd46ae7fd26a393b1
 net/minecraft/src/Packet23VehicleSpawn ee0486533917d4df95bdc8afb2192a07
 net/minecraft/src/RenderPig dcb1e41977d26144b72994987dd57dfc
-net/minecraft/src/Entity 5f66e22d52b82af0b9bcfe6d913f925f
+net/minecraft/src/Entity 389eaaadf790453f20b538e4c0033749
 net/minecraft/src/ChunkLoader 106d37f9e1529bcc92e2f0080d27b776
 net/minecraft/src/EntityPainting c718b28aaf80c3a9f8bd22a230c2eb95
 net/minecraft/src/WorldGenClay 382808910d451203f369e0ccb5f9d791
